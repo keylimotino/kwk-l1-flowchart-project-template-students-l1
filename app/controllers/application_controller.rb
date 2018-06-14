@@ -6,6 +6,6 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/index' do
-    erb :throw
+    erb :index
   end
 end
